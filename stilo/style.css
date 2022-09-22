@@ -12,29 +12,21 @@
     --font2:'Raleway', sans-serif;
     --font3: 'Lobster', cursive;
 }
- div#buttom { 
-margin-top: 10px;
-   padding-inline: 5px;
-} 
-
- input {   background-image: radial-gradient(circle,  rgba(0, 16, 104, 0.937) , rgba(7, 0, 63, 0.949) ,rgba(0, 16, 35, 0.942));
- color: rgba(255, 255, 255, 0.705);
- border: 1px  gray ;
- border-radius: 2px;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
  
- section.normal{background-color: aqua;
+ 
+ section.normal{background-color: rgb(0, 0, 0);
 
     background-position: center center;
 
+}  
+    body { background-color: rgba(173, 134, 113, 0.6);
+} main {
+    margin: 3px;
+    background-color: rgba(0, 0, 255, 0.373);
+    border-radius: 2px;
 }
 header{
-    background-image: radial-gradient(circle,  rgba(0, 30, 198, 0.937) , rgba(20, 3, 154, 0.949) ,rgba(0, 3, 93, 0.942));
+    background-image: radial-gradient(circle,  rgb(0, 38, 251) , rgb(45, 35, 120) ,rgb(0, 4, 130));
     color:rgb(255, 255, 255);
     text-align: center; 
     padding-top: 16px;
@@ -44,7 +36,7 @@ header{
      background-size: cover; 
          background-attachment: fixed;
              border-radius: 2px;
-                box-shadow: rgb(42, 72, 154) 1px 1px 1px 1px;
+                box-shadow: rgb(6, 21, 60) 1px 1px 3px 1px;
   
 }
 
@@ -57,12 +49,14 @@ header > h1{
         font-size: 6vw;
       text-shadow: rgba(69, 0, 0, 0.753) 2px 3px 6px ;
       border-radius: 20px  0px 0px;
+      box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.478);
       
 }header > p{    background-image: radial-gradient(circle,  rgba(202, 162, 151, 0.913) , rgba(228, 198, 174, 0.949) ,rgba(163, 153, 132, 0.827));
     color: rgb(247, 247, 247);
-    text-shadow: 1px 1px 2px green;
+    text-shadow: 1px 1px 1px rgba(0, 91, 0, 0.924);
        background-size: cover;   background-attachment: fixed;
     border-radius:1px 0px 0px  10px;
+    box-shadow: 1px 2px 3px rgba(43, 20, 0, 0.446);
 
 }
    header a, footer a  {
@@ -75,9 +69,14 @@ header p:hover ,footer p:hover{
     text-decoration: underline;
 }
 
-section { background-color:rgb(241, 241, 241);
-    ;
-    font-style:normal;
+section { width: 500px center;  
+ text-align: center;   font-style:normal;
+  
+  background-color:rgba(255, 255, 255, 0.351);   background-size: cover;
+    background-attachment: fixed;
+  
+ 
+    
     
 } p > img{ 
     width: 12px;
@@ -89,15 +88,33 @@ section p {
  text-transform: uppercase;
   font-family: var(--font2);
 text-align: center;
-  
-background-attachment: fixed;
+
+
 } 
 
-section.imagem {height: 80vh;
+section.imagem {height: 60vh;
   box-shadow: inset 1px 1px 10px 1px rgb(121, 93, 85);
- background-size: cover;
+ background-size: contain;
     background-attachment: fixed;
 
+} section#rede-sociais img{
+    width: 25px;
+    text-emphasis: none;
+    margin:  5px;
+    padding:6px;
+    border-radius: 50%;
+    text-align: center;
+   
+  
+ 
+
+
+   
+}section#rede-sociais img:hover {
+     border: 2px solid rgba(62, 39, 39, 0.432);
+transform:translate(-3px, -3px) ;
+box-shadow: 1px 1px 1px black;
+transition: transform  2s;
 }
 
 section#imgsanca{
